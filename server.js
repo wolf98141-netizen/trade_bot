@@ -76,6 +76,13 @@ app.get('/health', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok' });
+});
+
+app.get('/', (req, res) => {
+  res.send('Binance proxy running');
+});
 
 app.listen(PORT, () => {
   console.log(`Proxy running on port ${PORT}`);
