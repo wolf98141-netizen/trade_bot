@@ -1,4 +1,4 @@
-```json id="tm97kx"
+json id="tm97kx"
 {
   "name": "binance-proxy",
   "version": "1.0.0",
@@ -17,4 +17,4 @@
     "node-fetch": "^2.6.9"
   }
 }
-```
+
